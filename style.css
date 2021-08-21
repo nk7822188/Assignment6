@@ -1,0 +1,171 @@
+.root
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1260px;
+    height: 1750px;
+    /* border: 2px solid black; */
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+    position: relative;
+}
+.subroot1
+{
+    background-color: white;
+    border: 5px solid red;
+    box-shadow: 3px 3px 2px purple;
+    width: 300px;
+    height: 160px;
+    text-align: center;
+    margin: 5px;
+    padding: 8px 85px;
+    text-shadow: 2px 2px 2px purple;
+    font-style: oblique;
+    color: rgb(184, 41, 41);
+    border-radius: 15px;
+}
+.hr
+{
+    width: 1260px;
+    margin: 2px;
+}
+.subroot2class
+{
+    background-color: white;
+    border: 5px solid red;
+    box-shadow: 3px 3px 2px purple;
+    text-align: center;
+    padding: 2px 30px;
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+.subroot2-img
+{
+    margin-top: 25px;
+}
+.subroot2{
+    width: 1250px;
+    height: 700px;
+    border: 5px solid green;
+    position: absolute;
+    top: 228px;
+}
+.subroot2class{
+    text-shadow: 1px 1px 1px purple;
+}
+.label
+{
+    font-size: 12px;
+}
+.input1
+{
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+}
+.input2
+{
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    background-color: red;
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px purple;
+}
+.subroot2class1
+{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.subroot2class2
+{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.subroot2class3
+{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.subroot2class4
+{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.subroot3
+{
+    border: 5px solid purple;
+    width: 750px;
+    height: 570px;
+    position: absolute;
+    top: 1050px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.child2
+{
+    display: grid;
+    grid-template-columns: 380px 380px;
+}
+.subroot3div
+{
+    text-align: center;
+}
+.subroot3class
+{
+    font-style: oblique;
+    background-color:burlywood;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.subroot3class1
+{
+    width: 365px;
+    height: 250px;
+
+}
+.subroot3class2
+{
+    width: 360px;
+    height: 250px;
+}
+.subroot3class3
+{
+    width: 740px;
+    height: 250;
+}
+
+
+.subroot4
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+    height: 100px;
+    background-color: yellowgreen;
+    border: 5px solid red;
+    box-shadow: 3px 3px 2px purple;
+    border-radius: 15px;
+    position: fixed;
+    left: 450px;
+    bottom: 0px;
+}
+.subroot4class
+{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(184, 41, 41);
+}
